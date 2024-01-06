@@ -1,17 +1,17 @@
-// App.js
 import "./App.css";
-import Header from "./Header";
 import WelcomeBack from "./WelcomeBack";
-import Footer from "./Footer";
+import Quote from "./Quote";
+
+const quote = {
+  text: "I am the greatet of all time. Thank you.",
+  author: "Ricky Henderson",
+};
 
 function App() {
   return (
     <>
-      <Header />
-      <WelcomeBack name="Bitch" />
-      <WelcomeBack name="Fucker" />
-      <WelcomeBack />
-      <Footer />
+      <WelcomeBack name="FUCKER" />
+      <Quote quote={quote} />
     </>
   );
 }
